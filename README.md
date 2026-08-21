@@ -16,5 +16,14 @@ Each dataset has a folder containing the required code.
 
 
 ## Midatlantic:
+-
 
 ## Florida:
+- *Setup-FL.ipynb:* This is the main file that can will download the repo, make nay needed changes and run the model on the original data. then run the model on new data. Then it will generate needed plots.
+
+# Required
+- A up to date version of python
+- Data
+  *Use the google drive to get the data we used in this project*
+  - the AIS... file is the raw data
+  - the other files are required for the run of *main.py* they should be kept in their corresponding sub folders, and the folders moved to where *main.py* is to be run.
