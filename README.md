@@ -19,6 +19,7 @@ Each dataset has a folder containing the required code.
 data_prep.ipynb is intended to run with the original csv file in the same directory. Then run trainer_analysis.ipynb in the same directory. 
 - *data_prep.ipynb*: Prepares and processes the Mid-Atlantic AIS dataset for use with TrAISformer. The notebook handles the data processing steps needed to transform the raw AIS data into a format suitable for model training and evaluation.
 - *trainer_analysis.ipynb*: Analyzes the results and performance of the trained TrAISformer model on the Mid-Atlantic dataset. The notebook is used to examine model outputs and evaluate the resulting trajectory predictions.
+- *chesapeake_coastline_polygons.pkl*: Store this inside /data, which is generated after data_prep.ipynb is ran. This is an optional file that allows for nicer visualizations when tracking predictions.
 
 ## Florida:
 - *Setup-FL.ipynb:* This is the main file that can will download the repo, make any needed changes and run the model on the original data. Then run the model on new data. Then it will generate needed plots.
