@@ -21,9 +21,16 @@ Each dataset has a folder containing the required code.
 ## Florida:
 - *Setup-FL.ipynb:* This is the main file that can will download the repo, make any needed changes and run the model on the original data. Then run the model on new data. Then it will generate needed plots.
 
+## Other
+- This *README* explaining how to use the repo
+- *Main.ipynb* which can run any of the 3 region's best model and test data to reproduce the resalts without having to retrain. 
+
 # Required
-- A up to date version of python
-- Data
+- Python 3.11.6
+- **Data**
   *Use the google drive to get the data we used in this project*
   - the AIS... file is the raw data
-  - the other files are required for the run of *main.py* they should be kept in their corresponding sub folders, and the folders moved to where *main.py* is to be run.
+  - the other files are required for the run of *main.ipynb* they should be kept in their corresponding sub folders, and the folders moved to where *main.ipynb* is to be run.
+- packages:
+    torch, torchvision, torchaudio, numpy, pandas, scikit-learn, scipy, tqdm, einops, pyyaml, matplotlib, cartopy
+- Internet accesses to git clone needed files
