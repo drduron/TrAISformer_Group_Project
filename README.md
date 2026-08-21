@@ -16,6 +16,7 @@ Each dataset has a folder containing the required code.
 
 
 ## Midatlantic:
+data_prep.ipynb is intended to run with the original csv file in the same directory. Then run trainer_analysis.ipynb in the same directory. 
 - *data_prep.ipynb*: Prepares and processes the Mid-Atlantic AIS dataset for use with TrAISformer. The notebook handles the data processing steps needed to transform the raw AIS data into a format suitable for model training and evaluation.
 - *trainer_analysis.ipynb*: Analyzes the results and performance of the trained TrAISformer model on the Mid-Atlantic dataset. The notebook is used to examine model outputs and evaluate the resulting trajectory predictions.
 
@@ -24,7 +25,7 @@ Each dataset has a folder containing the required code.
 
 ## Other
 - This *README* explaining how to use the repo
-- *Main.ipynb* which can run any of the 3 region's best model and test data to reproduce the resalts without having to retrain. 
+- *Main.ipynb* which can run the best Northeast and Florida model and test data specifically to reproduce the results without having to retrain. 
 
 # Required
 - Python 3.11.6
