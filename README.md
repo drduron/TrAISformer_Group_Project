@@ -12,14 +12,14 @@ The original repo from the paper that we recreate the resalts of and test on our
 Each dataset has a folder containing the required code.
 
 ## Northeast:
-- *Setup-NE.ipynb:* This is the main file that can will download the repo, make nay needed changes and run the model on the original data. then run the model on new data. Then it will generate needed plots.
+- *Setup-NE.ipynb:* This is the main file that can will download the repo, make any needed changes and run the model on the original data. Then run the model on new data. Then it will generate needed plots.
 
 
 ## Midatlantic:
 -
 
 ## Florida:
-- *Setup-FL.ipynb:* This is the main file that can will download the repo, make nay needed changes and run the model on the original data. then run the model on new data. Then it will generate needed plots.
+- *Setup-FL.ipynb:* This is the main file that can will download the repo, make any needed changes and run the model on the original data. Then run the model on new data. Then it will generate needed plots.
 
 # Required
 - A up to date version of python
